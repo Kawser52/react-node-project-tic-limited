@@ -18,7 +18,7 @@ const Navigation = () => {
                     <Link to='/home' class="nav-link active" aria-current="page" href="#">Home</Link>
                   </li>
                   <li class="nav-item">
-                    <Link to='/about' class="nav-link" href="#">About</Link>
+                    <Link to='/about-us' class="nav-link" href="#">About</Link>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

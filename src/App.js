@@ -5,6 +5,7 @@ import Header from './FrontEnd/Pages/Shared/Header/Header';
 import Home from './FrontEnd/Pages/Home/Home';
 import Navigation from './FrontEnd/Pages/Shared/Navigation/Navigation';
 import About from './FrontEnd/Pages/About/About';
+import AboutDetails from './FrontEnd/Pages/About/About Details/AboutDetails';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home></Home>}></Route>
             <Route path='/home' element={<Home></Home>}></Route>
-            <Route path='/about' element={<About></About>}></Route>
+            <Route path='/about-us' element={<AboutDetails></AboutDetails>}></Route>
           </Routes>
       </BrowserRouter>
     </div>
