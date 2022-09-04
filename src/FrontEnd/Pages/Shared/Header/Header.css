@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Poppins&family=Raleway:wght@400;500;600&display=swap');
+/* :root {
+    --red: #F04F26;
+    --blue: #051b7a;
+  } */
+.header{
+    background-color:#F04F26;
+}
+
+.social-media a{
+  color: white;
+  margin: 0px 10px;
+}
