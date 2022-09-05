@@ -1,6 +1,6 @@
 .AboutHome{
     position: relative;
-    font-family: 'Rajdhani',sans-serif;
+    font-family: 'Rajdhani',sans-serif;;
 }
 
 .about-title{
@@ -9,20 +9,21 @@
 #about-heading{
     font-weight: 900;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: justify;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.6px;
 }
 .common-style-paragraph{
     color:rgb(56, 55, 55);
     margin: 20px 0px;
+    font-size: 20px;
 }
 
 .common-heading-style{
     font-family: 'Rajdhani',sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 27px;
 }
 
 .highlight{
@@ -43,7 +44,6 @@
 .image-circle img {
     animation: spin 10s infinite reverse linear;
     border-radius: 50px;
-
 }
 
 @keyframes spin {

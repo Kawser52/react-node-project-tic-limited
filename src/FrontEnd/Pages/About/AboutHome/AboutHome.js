@@ -3,7 +3,9 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import Slide from '../../Home/Slider/Slide';
 import './AboutHome.css'
-import test from '../../../../img/test.jpg'
+import test from '../../../../img/test.jpg';
+
+
 const AboutHome = () => {
     return (
         <div className="AboutHome">

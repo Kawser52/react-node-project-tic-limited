@@ -1,0 +1,39 @@
+.we-do{
+    background: rgb(253, 249, 249);
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.what-we-do{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.what-we-do span{
+  font-size: 20px;
+  text-align: center;
+}
+.what-we-do p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rajdhani';
+    font-weight: 900;
+}
+
+.we-do-content{
+}
+
+.slick-slider {
+    margin:0 15px;
+}
+.slick-slide {
+    margin: 10px;
+    text-align:center;
+}
+
+.we-do:hover {
+    background-color:rgb(53, 9, 118);
+    text-align:center;
+}
