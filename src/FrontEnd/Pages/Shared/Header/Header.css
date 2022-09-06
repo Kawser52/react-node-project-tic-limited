@@ -1,13 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Poppins&family=Raleway:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Poppins&family=Raleway:wght@400;500;600&display=swap");
 /* :root {
     --red: #F04F26;
     --blue: #051b7a;
   } */
-.header{
-    background-color:#F04F26;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #151515;
+  font-weight: bold;
 }
 
-.social-media a{
+/* 
+commone css  */
+.header {
+  background-color: #f04f26;
+}
+
+.social-media a {
   color: white;
   margin: 0px 10px;
 }

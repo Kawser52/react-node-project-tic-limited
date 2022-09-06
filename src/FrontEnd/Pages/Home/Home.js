@@ -1,6 +1,6 @@
 import React from 'react';
-import About from '../About/About';
 import AboutHome from '../About/AboutHome/AboutHome';
+import Counter from './Counter/Counter';
 import Slide from './Slider/Slide';
 import WhatWeDo from './WhatWeDo/WhatWeDo';
 
@@ -10,6 +10,7 @@ const Home = () => {
         <div>
             <Slide></Slide>
             <AboutHome></AboutHome>
+            <Counter></Counter>
             <WhatWeDo></WhatWeDo>
         </div>
     );
