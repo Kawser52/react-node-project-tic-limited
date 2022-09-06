@@ -1,7 +1,11 @@
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../../../img/cropped-TIC-01.png';
 import './Navigation.css';
-import logo from '../../../../img/cropped-TIC-01.png'
+
+
 const Navigation = () => {
     return (
         <div className='navigation'>
@@ -22,15 +26,21 @@ const Navigation = () => {
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Course <i class="fa-solid fa-plus"></i>
+                      Course <FontAwesomeIcon icon={faPlus}></FontAwesomeIcon>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Web Design</a></li>
+                      <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Domain & Hosting</a>
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Domain & Hsoting <FontAwesomeIcon icon={faPlus} className=''></FontAwesomeIcon>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Web Design</a></li>
+                      <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
