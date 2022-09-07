@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutHome from '../About/AboutHome/AboutHome';
+import DomainHosting from '../DomainHosting/DomainHosting';
 import Events from '../Events/Events';
 import Counter from './Counter/Counter';
 import Courses from './Courses/Courses';
@@ -10,7 +11,7 @@ import WhatWeDo from './WhatWeDo/WhatWeDo';
 const Home = () => {
     
     return (
-        <div>
+        <>
             <Slide></Slide>
             <AboutHome></AboutHome>
             <Counter></Counter>
@@ -18,8 +19,8 @@ const Home = () => {
             <Courses></Courses>
             <Testimonial></Testimonial>
             <Events></Events>
-            
-        </div>
+            <DomainHosting></DomainHosting>
+        </>
     );
 };
 

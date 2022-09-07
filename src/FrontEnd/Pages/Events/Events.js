@@ -9,7 +9,7 @@ const Events = () => {
         <>
            <div className="container my-3">
              <div className="row d-flex">
-                <div className="our-services-header my-5">
+                    <div className="our-services-header my-5">
                         <span></span>
                         <p className=''>Our Upcoming Events</p>
                      </div>
@@ -45,7 +45,7 @@ const Events = () => {
                 </div>  
                 </div>  
 
-                <div className="row mt-4">
+                <div className="row">
                 <div className="col-md-6">
                     <div className="events d-flex border-3">
                         <div className="event-img">
