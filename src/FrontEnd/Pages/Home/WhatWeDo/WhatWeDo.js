@@ -10,7 +10,7 @@ const WhatWeDo = () => {
          slidesToScroll: 1,
          autoplay: true,
          autoplaySpeed: 2000,
-       responsive: [
+         responsive: [
          {
            breakpoint: 1024,
            settings: {

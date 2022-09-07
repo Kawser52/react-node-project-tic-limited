@@ -2,6 +2,8 @@ import React from 'react';
 import TrackVisibility from 'react-on-screen';
 import CounterData from '../CounterData/CounterData';
 import './Counter.css';
+
+
 const Counter = () => {
     const counterData = [
         {

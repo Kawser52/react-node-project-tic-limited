@@ -78,3 +78,14 @@
 .overlay {
   opacity: 1;
 }
+.service-section .slick-prev {
+  display: none !important;
+}
+.service-section .slick-next {
+  display: none !important;
+}
+
+.service-section .slick-prev:hover,
+.slick-next:hover {
+  display: none;
+}

@@ -36,7 +36,7 @@
 }
 
 .price {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 900;
   font-family: "Rajdhani", sans-serif;
   color: #f04f26;
@@ -47,11 +47,22 @@ hr {
   margin: 0;
 }
 
+.course-heading {
+  font-size: 35px;
+  font-family: "Rajdhani";
+  font-weight: 900;
+}
 .course-down {
-  padding: -30px 0px;
-  margin: -30px 0px;
+  margin: -20px 0px;
+}
+.img-zoom {
+  overflow: hidden;
 }
 
-.course-content img:hover {
-  transition: all 0.3s ease-in-out 0s;
+.img-zoom img {
+  transition: all 1.5s ease;
+  border-radius: 5px;
+}
+.img-zoom:hover img {
+  transform: scale(1.3);
 }

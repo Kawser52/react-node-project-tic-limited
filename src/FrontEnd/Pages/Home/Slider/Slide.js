@@ -1,6 +1,5 @@
 import React from 'react';
-import AboutHome from '../../About/AboutHome/AboutHome';
-import './Slide.css'
+import './Slide.css';
 const Slide = () => {
     return (
         <div className='hero-section'>
@@ -11,8 +10,8 @@ const Slide = () => {
                             <div className="hero-content-flex">
                                 <h1 className='mb-3 hero-title'>Build Skills With <span className='mb-5'>Experts</span> Any Time, Anywhere</h1>
                                 <p className='hero-paragraph'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, optio mollitia quidem debitis consequuntur unde? Voluptates nisi similique est beatae?</p>
-                                <button className='buttons'>View All Course</button>
-                                <button className='buttons ms-3 transparent'>Enroll Now</button>
+                                <button className='buttons text-uppercase font-weight-bold'>View All Course</button>
+                                <button className='buttons ms-3 transparent text-uppercase'>Enroll Now</button>
                             </div>
                         </div>
                     </div>
