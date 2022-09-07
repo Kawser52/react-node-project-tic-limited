@@ -14,8 +14,8 @@ const DomainHosting = () => {
                     <div class="col-lg-4">
                         <div class="card mb-5 mb-lg-0">
                         <div class="card-body">
-                            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-                            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+                            <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
+                            <h6 class="card-price text-center">$10<span class="period">/month</span></h6>
                             <hr/>
                             <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
@@ -32,7 +32,7 @@ const DomainHosting = () => {
                                 Reports</li>
                             </ul>
                             <div class="d-grid">
-                            <a href="#" class="btn bg-dom text-uppercase">ORDER NOW</a>
+                            <a href="#" class="btn bg-dom text-uppercase">Get Started</a>
                             </div>
                         </div>
                         </div>
@@ -55,7 +55,7 @@ const DomainHosting = () => {
                                 Reports</li>
                             </ul>
                             <div class="d-grid">
-                            <a href="#" class="btn bg-dom text-uppercase">ORDER NOW</a>
+                            <a href="#" class="btn bg-dom text-uppercase">Get Started</a>
                             </div>
                         </div>
                         </div>
@@ -79,7 +79,7 @@ const DomainHosting = () => {
                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
                             </ul>
                             <div class="d-grid">
-                            <a href="#" class="btn bg-dom text-uppercase">ORDER NOW</a>
+                            <a href="#" class="btn bg-dom text-uppercase">Get Started</a>
                             </div>
                         </div>
                         </div>
