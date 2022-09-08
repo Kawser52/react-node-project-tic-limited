@@ -55,6 +55,41 @@ section.pricing .container {
   border: none;
 }
 
+.domain-offer {
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.domain-offer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.domain-offer {
+  font-weight: bold;
+}
+.domain-offer li {
+  margin-right: 10px;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 21px;
+  border-right: 2px solid #666;
+}
+.domain-offer li:first-child {
+  margin-left: 15px;
+}
+.domain-offer li:last-child {
+  border-right: none;
+  font-size: 18px;
+}
+.domain-section-price p {
+  font-size: 25px;
+}
+
 .pricing .card {
   border: none;
   border-radius: 1rem;
