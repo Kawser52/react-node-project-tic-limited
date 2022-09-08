@@ -1,6 +1,58 @@
-section.pricing {
+section.pricing .container {
   background: var(--simple-bacground-color);
-  background: linear-gradient(to right, #efcbc1, #fcfcfc);
+  background: linear-gradient(to right, #fee8e2, #fcfcfc);
+  border-radius: 10px;
+}
+.search-bar {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.search-bar input {
+  width: 60%;
+  padding: 15px 10px;
+  border: none;
+  border: 1px solid rgb(2, 0, 108);
+  border-radius: 10px;
+  outline: none;
+}
+.search-bar .search-btn {
+  padding: 12px 60px;
+  border: none;
+  margin-left: 10px;
+  background: var(--secondary-color);
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.search-bar .search-btn:hover {
+  background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.service-plan {
+  padding: 3px 20px;
+  text-align: center;
+}
+.service-plan h5 {
+  background-color: white;
+  font-weight: bold;
+  display: inline-flex;
+  padding: 5px 30px;
+  border-radius: 5px;
+  color: #f04f26;
+}
+.service-plan {
+  background-color: var(--secondary-color);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.search-bar input:focus {
+  border: none;
 }
 
 .pricing .card {

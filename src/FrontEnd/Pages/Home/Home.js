@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutHome from '../About/AboutHome/AboutHome';
+import Blog from '../Blogs/Blog';
 import DomainHosting from '../DomainHosting/DomainHosting';
 import Events from '../Events/Events';
 import Counter from './Counter/Counter';
@@ -15,11 +16,12 @@ const Home = () => {
             <Slide></Slide>
             <AboutHome></AboutHome>
             <Counter></Counter>
+            <DomainHosting></DomainHosting>
             <WhatWeDo></WhatWeDo>
             <Courses></Courses>
             <Testimonial></Testimonial>
             <Events></Events>
-            <DomainHosting></DomainHosting>
+            <Blog></Blog>
         </>
     );
 };

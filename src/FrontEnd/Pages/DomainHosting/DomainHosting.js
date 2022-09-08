@@ -4,18 +4,24 @@ import './DomainHosting.css';
 const DomainHosting = () => {
     return (
         <>
-            <section class="pricing py-5">
-                <div class="container">
+            <section class="pricing ">
+                <div class="container py-5">
                     <div class="row">
                     <div className="our-services-header">
                         <span></span>
-                        <p className='mb-5'>Our Domain & Hosting Services</p>
+                        <p className='mb-2'>Our Domain & Hosting Services</p>
+                     </div>
+                     <div className="search-bar">
+                        <input type="search" name='search'  placeholder='Find Your Perfect Domain Name (Ex. www.ticlimited.com)' />
+                        <button className='search-btn'>Submit</button>
                      </div>
                     <div class="col-lg-4">
                         <div class="card mb-5 mb-lg-0">
                         <div class="card-body">
-                            <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
-                            <h6 class="card-price text-center">$10<span class="period">/month</span></h6>
+                            <div className="service-plan">
+                                <h5 class="card-title cs text-uppercase">Basic</h5>
+                                <h6 class="card-price text-center text-white">$10<span class="period">/month</span></h6>
+                            </div>
                             <hr/>
                             <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
@@ -40,8 +46,10 @@ const DomainHosting = () => {
                     <div class="col-lg-4">
                         <div class="card mb-5 mb-lg-0">
                         <div class="card-body">
-                            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-                            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+                            <div className="service-plan">
+                                <h5 class="card-title cs text-uppercase">Basic</h5>
+                                <h6 class="card-price text-center text-white">$10<span class="period">/month</span></h6>
+                            </div>
                             <hr/>
                             <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
@@ -63,8 +71,10 @@ const DomainHosting = () => {
                     <div class="col-lg-4">
                         <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-                            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+                            <div className="service-plan">
+                                <h5 class="card-title cs text-uppercase">Basic</h5>
+                                <h6 class="card-price text-center text-white">$10<span class="period">/month</span></h6>
+                            </div>
                             <hr/>
                             <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong>

@@ -1,13 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Header from './FrontEnd/Pages/Shared/Header/Header';
-import Home from './FrontEnd/Pages/Home/Home';
-import Navigation from './FrontEnd/Pages/Shared/Navigation/Navigation';
-import About from './FrontEnd/Pages/About/About';
+import "slick-carousel/slick/slick.css";
+import './App.css';
 import AboutDetails from './FrontEnd/Pages/About/About Details/AboutDetails';
+import ContactUs from './FrontEnd/Pages/ContactUs/ContactUs';
+import DomainHosting from './FrontEnd/Pages/DomainHosting/DomainHosting';
+import Events from './FrontEnd/Pages/Events/Events';
+import Home from './FrontEnd/Pages/Home/Home';
+import Projects from './FrontEnd/Pages/Projects/Projects';
+import Footer from './FrontEnd/Pages/Shared/Footer/Footer';
+import Header from './FrontEnd/Pages/Shared/Header/Header';
+import Navigation from './FrontEnd/Pages/Shared/Navigation/Navigation';
 
 function App() {
   return (
@@ -16,10 +19,15 @@ function App() {
       <Header></Header>
         <Navigation></Navigation>
           <Routes>
-            <Route path='/' element={<Home></Home>}></Route>
-            <Route path='/home' element={<Home></Home>}></Route>
-            <Route path='/about-us' element={<AboutDetails></AboutDetails>}></Route>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/home' element={<Home/>}/>
+            <Route path='/about-us' element={<AboutDetails/>}/>
+            <Route path='/domainhosting' element={<DomainHosting/>}/>
+            <Route path='/projects' element={<Projects/>}/>
+            <Route path='/event' element={<Events/>}/>
+            <Route path='/contact' element={<ContactUs/>}/>
           </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

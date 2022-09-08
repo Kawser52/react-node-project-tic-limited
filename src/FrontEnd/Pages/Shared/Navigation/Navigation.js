@@ -25,31 +25,31 @@ const Navigation = () => {
                     <Link to='/about-us' class="nav-link" href="#">About</Link>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link to = '/course' class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Course <FontAwesomeIcon icon={faPlus}></FontAwesomeIcon>
-                    </a>
+                    </Link>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Web Design</a></li>
                       <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link to='/domainhosting' class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Domain & Hsoting <FontAwesomeIcon icon={faPlus} className=''></FontAwesomeIcon>
-                    </a>
+                    </Link>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Web Design</a></li>
                       <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <Link to='/projects' class="nav-link" href="#">Projects</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Event</a>
+                    <Link to='/event' class="nav-link" href="#">Event</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <Link to='/contact' class="nav-link" href="#">Contact Us</Link>
                   </li>
                 </ul>
                 <span class="navbar-text d-flex">
